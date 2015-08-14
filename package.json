@@ -1,0 +1,14 @@
+{
+  "name": "remeber_the_soymilk",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "rtm": "electron index.js"
+  },
+  "author": "Hiroshi Yoshida",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-prebuilt": "^0.30.4"
+  }
+}
