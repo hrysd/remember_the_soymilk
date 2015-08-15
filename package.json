@@ -10,5 +10,8 @@
   "license": "MIT",
   "devDependencies": {
     "electron-prebuilt": "^0.30.4"
+  },
+  "dependencies": {
+    "menubar": "^2.1.2"
   }
 }
