@@ -1,12 +1,12 @@
 'use strict';
 
-const App           = require('app'),
-      BrowserWindow = require('browser-window');
+const App           = require('electron').app,
+      BrowserWindow = require('electron').BrowserWindow;
 
 App.on('ready', function() {
   let mainWindow = new BrowserWindow({width: 980, height: 1000});
 
-  mainWindow.loadUrl(`file://${__dirname}/index.html`);
+  mainWindow.loadURL(`file://${__dirname}/index.html`);
 
   mainWindow.on('closed', function() {
     mainWindow = null;

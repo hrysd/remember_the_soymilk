@@ -9,6 +9,6 @@
   "author": "Hiroshi Yoshida",
   "license": "MIT",
   "devDependencies": {
-    "electron-prebuilt": "^0.30.4"
+    "electron-prebuilt": "^0.35.4"
   }
 }
