@@ -16,9 +16,10 @@
     <webview id='rtm' src='https://www.rememberthemilk.com/' autosize='on'></webview>
     <script>
       var webview  = document.getElementById('rtm');
+      var shell    = require('electron').shell;
 
       webview.addEventListener('new-window', function(e) {
-        require('shell').openExternal(e.url);
+        shell.openExternal(e.url);
       });
     </script>
   </body>
